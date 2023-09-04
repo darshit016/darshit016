@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 4px;
+            color: #000000;
+            text-decoration: none;
+            
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        body{
+            color: #000;
+            background-color: #e4dada;
+            font-family: 'Open Sans', sans-serif;
+        }
+        #logo{
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+        #form{
+            background-color: #c9c0c0;
+            height: 355px;
+            width: 300px;
+            border-radius: 10px;
+            padding: 20px 10px 20px 10px;
+            margin: 10px;
+            text-align: center;
+            margin-left: 80vh;
+        }
+        .name{
+            display: flex;
+        }
+        .name2{
+            display: flex;
+            width: 95%;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 id="logo">Sign Up.</h1>
+    <form>
+    <div id="form">
+        <label for="Fname" class="name">First name:</label>
+        <input type="text" name="First name" placeholder="First name" class="name2" required><br>
+
+        <label for="lname" class="name">Last name:</label>
+        <input type="text" name="last name" placeholder="last name" class="name2" required><br>
+
+        <label for="Fname" class="name">Phone number:</label>:</label>
+        <input type="text" name="number" placeholder=" your Phone number here" class="name2" required><br>
+
+        <label for="id" class="name">email:</label>
+        <input type="email" placeholder="Gmail or phone" class="name2"><br>
+
+        <label for="password" class="name">Password:</label>
+        <input type="password" id="password" name="password" placeholder=" your Password  here" class="name2" required><br>
+       
+        <input type="submit" value="Login" >
+        <input type="reset" value="reset" >
+    </div>
+    </form>
+</body>
+</html>
